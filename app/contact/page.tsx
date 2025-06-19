@@ -1,3 +1,5 @@
+import ButtonComponent from "./button";
+
 export default async function Contact() {    
     console.log('hey is this in server or client?');
 
@@ -6,7 +8,7 @@ export default async function Contact() {
     console.log(posts);
     return (
         <div>
-            <button >Click me</button>
+            <ButtonComponent />
         </div>
     )
 }
